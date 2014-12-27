@@ -20,9 +20,7 @@ block_size = 20
 #of snake and apple will not match
 speed = 20
 gameDisplay = pygame.display.set_mode((display_width,display_height))
-pygame.display.set_caption('Slither')
-gameDisplay.set_alpha(30)
-pygame.display.update()
+pygame.display.set_caption('Snake!')
 fps = 30
 direction = 'right'
 musicOn = True
